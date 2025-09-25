@@ -10,11 +10,19 @@ h1   {color: white;
 p {text-align: center;
   color: white;
 }
-a {text-align: center;
-  color: red;
-  }
-.container {
-  text-align: center;
+.image-container {
+      width: 700px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: black;
+      text-align: center;
+    }
+.link-container {
+  text-align:center;
+}
+.link-container a {
+  color:red;
+  font-size:20px;
 }
 </style>
 <meta charset="UTF-8">
@@ -27,8 +35,11 @@ a {text-align: center;
 <h1>Pokemon Red</h1>
 
 <div class="image-container">
-  <img src="https://i.ibb.co/VpgjFSx0/pokemon-red.jpg" alt= "Pokemon Red" />
+  <img src="https://i.ibb.co/VpgjFSx0/pokemon-red.jpg" alt= "Pokemon Red" style=width:250px;height:250px;/>
 </div>
-<a href="assets/Pokemon - Red Version (USA, Europe) (SGB Enhanced).gb" download="PokemonRed.gb"><br>Download Rom</a>
+<div class="link-container">
+<a href="assets/Pokemon - Red Version (USA, Europe) (SGB Enhanced).gb" 
+download="PokemonRed.gb" >Download Rom</a>
+</div>
 </body>
 </html>
