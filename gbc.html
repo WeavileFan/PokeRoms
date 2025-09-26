@@ -8,6 +8,16 @@ h1   {color: white;
      font-size: 300%;
      text-align:center;}
 p    {color: white;}
+.mycontainer {
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  text-align:center;
+}
+.col2 { grid-column: 2; }
+.col3 { grid-column: 3; }
+.col4 { grid-column: 4; }
+
 </style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +27,22 @@ p    {color: white;}
   
 <body>
 <h1>Game Boy/GBC Roms</h1>
-<a href="gbc-games/pokemonred.html"><img src="https://i.ibb.co/VpgjFSx0/pokemon-red.jpg"
-                               alt="pokemon-red" style=width:200px;height:200px></a>
-<a href="gbc-games/pokemonblue.html"><img src="https://i.ibb.co/spxbR0cC/pokemon-blue.jpg"
-                                alt="pokemon-blue" style=width:200px;height:200px></a>
-<a href="gbc-games/pokemonyellow.html"><img src="https://i.ibb.co/0pwY2vpg/pokeyello.jpg"
-                                alt="pokemon yellow" style=width:200px;height:200px></a>
-
+<div class="mycontainer">
+  <div class="col2">
+      <a href="gbc-games/pokemonred.html"><img src="https://i.ibb.co/VpgjFSx0/pokemon-red.jpg"
+                               alt="pokemon-red" style=width:200px;height:200px>
+                               </a>
+                            </div>
+  <div class="col3">
+      <a href="gbc-games/pokemonblue.html"><img src="https://i.ibb.co/spxbR0cC/pokemon-blue.jpg"
+                                alt="pokemon-blue" style=width:200px;height:200px>
+                                </a>
+                            </div>
+  <div class="col4">
+      <a href="gbc-games/pokemonyellow.html"><img src="https://i.ibb.co/0pwY2vpg/pokeyello.jpg"
+                                alt="pokemon yellow" style=width:200px;height:200px>
+                                </a>
+                            </div>
+                        </div>
 </body>
 </html>
