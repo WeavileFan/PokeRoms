@@ -9,6 +9,14 @@ p {text-align: center;
 a {text-align: center;
   color: red;
 }
+.link-container {
+  text-align:center;
+}
+.link-container a {
+  color:red;
+  font-size:20px;
+}
+
 footer {background-color:#2b2b2b;
         color:white;
         text-align:center;
