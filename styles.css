@@ -23,5 +23,8 @@ footer {background-color:#2b2b2b;
         font-size:120%;
 }
 .image-container{
-     justify-content:center;
+  display: flex;
+  justify-content: center;
+  padding:30px;
+  margin:auto;
 }
