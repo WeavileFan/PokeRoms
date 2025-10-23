@@ -37,9 +37,3 @@ button {
   align-items: center;
   height: 100vh;            
 }
-#mode {
-  padding: 10px 20px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
