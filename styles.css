@@ -28,12 +28,3 @@ footer {background-color:#2b2b2b;
   padding:30px;
   margin:auto;
 }
-button {
-  color:gray
-}
-.center.button {
-  display: flex;
-  justify-content: center;  
-  align-items: center;
-  height: 100vh;            
-}
