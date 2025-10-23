@@ -1,12 +1,20 @@
-const mode = document.getElementById("mode");
-const text = document.getElementById("text");
+document.addEventListener("DOMContentLoaded", () => {
+  const modeToggle = document.getElementById("mode");
+  const textElements = document.querySelectorAll(".text");
 
-mode.addEventListener("click", () => {
-  if (document.body.style.backgroundColor == "black") {
-    text.style.Color = white";
-  mode.textContent = "Dark Mode";
-} else {
-      document.body.style.backgroundColor == "white")
-    text.style.Color = "black";
-  mode.textContent = "Light Mode";
-  
+  modeToggle.addEventListener("click", () => {
+    alert("Toggle clicked!");
+
+    const isDark = getComputedStyle(document.body).backgroundColor === "rgb(0, 0, 0)";
+
+    if (isDark) {
+      document.body.style.backgroundColor = "white";
+      textElements.forEach(el => el.style.color = "black");
+      modeToggle.textContent = "Light Mode";
+    } else {
+      document.body.style.backgroundColor = "black";
+      textElements.forEach(el => el.style.color = "white");
+      modeToggle.textContent = "Dark Mode";
+    }
+  });
+});
