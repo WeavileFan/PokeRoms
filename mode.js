@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const textElements = document.querySelectorAll(".text");
 
   modeToggle.addEventListener("click", () => {
-    alert("Toggle clicked!");
-
     const isDark = getComputedStyle(document.body).backgroundColor === "rgb(0, 0, 0)";
 
     if (isDark) {
