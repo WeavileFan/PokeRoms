@@ -4,17 +4,7 @@ h1   {color: white;
      font-family: Times New Roman;
      font-size: 300%;
      text-align: center;}
-.blue
-     {     
-     text-shadow:  0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue;
-     }
-.yellow
-     {
-     text-shadow:  0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow;
-.green
-     {
-     text-shadow:  0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green;
-     }
+
 p {text-align: center;
   color: white;
 }
@@ -60,3 +50,14 @@ footer {background-color:#2b2b2b;
        grid-template-columns: repeat(3, 1fr);
        row-gap:30px;
 }
+.blue
+     {     
+     text-shadow:  0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue;
+     }
+.yellow
+     {
+     text-shadow:  0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow;
+.green
+     {
+     text-shadow:  0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green;
+     }
